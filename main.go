@@ -10,8 +10,8 @@ func main() {
 	// Create a client with your Client-Id and Api-Key
 	// [Documentation]: https://docs.ozon.ru/api/seller/en/#tag/Auth
 	opts := []ozon.ClientOption{
-		ozon.WithAPIKey("PUT DOWN UR API KEY HERE"),
-		ozon.WithClientId("PUT DOWN UR CLIENT KEY HERE"),
+		ozon.WithAPIKey("63ed3fb3-dab9-4e97-82e4-604c446ce1ef"),
+		ozon.WithClientId("1344259"),
 	}
 	client := ozon.NewClient(opts...)
 
